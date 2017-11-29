@@ -20,4 +20,4 @@ puts a.join "-Test-"
 puts b.insert(0,"Richard")
 
 puts a.values_at(2)
-puts b.
+b = %w{cat dog bear}; puts a.values_at(1,2).join(' and ') #=> "dog and bear"
