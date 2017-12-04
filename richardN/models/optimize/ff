@@ -1,0 +1,37 @@
++----+------------------------+------------------------+------------------------+------------------------+-------------------------+
+| id | name                   | mascot                 | stadium                | created_at             | updated_at              |
++----+------------------------+------------------------+------------------------+------------------------+-------------------------+
+| 1  | Atlanta Hawks          | Skyhawk                | Philips Arena          | 2017-12-03 22:05:37... | 2017-12-03 22:05:37 UTC |
+| 2  | Atlanta Hawks          | Skyhawk                | Philips Arena          | 2017-12-03 22:07:43... | 2017-12-03 22:07:43 UTC |
+| 3  | Atlanta Hawks          | Skyhawk                | Philips Arena          | 2017-12-03 22:11:46... | 2017-12-03 22:11:46 UTC |
+| 4  | Boston Celtics         | Lucky the Leprechaun   | TD Garden              | 2017-12-03 22:11:47... | 2017-12-03 22:11:47 UTC |
+| 5  | Brooklyn Nets          | BrooklyKnight          | Barclays Center        | 2017-12-03 22:11:47... | 2017-12-03 22:11:47 UTC |
+| 6  | Charlotte Hornets      | Hugo the Hornet        | Spectrum Center        | 2017-12-03 22:11:47... | 2017-12-03 22:11:47 UTC |
+| 7  | Chicago Bulls          | Benny the Bull         | United Center          | 2017-12-03 22:11:47... | 2017-12-03 22:11:47 UTC |
+| 8  | Cleveland Cavaliers    | Moondog                | Quicken Loans Arena    | 2017-12-03 22:11:48... | 2017-12-03 22:11:48 UTC |
+| 9  | Dallas Mavericks       | Champ                  | American Airlines C... | 2017-12-03 22:11:48... | 2017-12-03 22:11:48 UTC |
+| 10 | Denver Nuggets         | Rocky the Mountain ... | Pepsi Center           | 2017-12-03 22:11:48... | 2017-12-03 22:11:48 UTC |
+| 11 | Detroit Pistons        | Hooper                 | The Palace of Aubur... | 2017-12-03 22:11:48... | 2017-12-03 22:11:48 UTC |
+| 12 | Golden State Warriors  | Thunder                | Oracle Arena           | 2017-12-03 22:11:49... | 2017-12-03 22:11:49 UTC |
+| 13 | Houston Rockets        | Clutch                 | Toyota Center          | 2017-12-03 22:11:49... | 2017-12-03 22:11:49 UTC |
+| 14 | Indiana Pacers         | Boomer the Panther     | Bankers Life Fieldh... | 2017-12-03 22:11:49... | 2017-12-03 22:11:49 UTC |
+| 15 | Los Angeles Clippers   | Chuck                  | Staples Center         | 2017-12-03 22:11:49... | 2017-12-03 22:11:49 UTC |
+| 16 | Los Angeles Lakers     | Jack Nicholson         | Staples Center         | 2017-12-03 22:11:50... | 2017-12-03 22:11:50 UTC |
+| 17 | Memphis Grizzlies      | Griz                   | FedExForum             | 2017-12-03 22:11:50... | 2017-12-03 22:11:50 UTC |
+| 18 | Miami Heat             | Burnie                 | American Airlines A... | 2017-12-03 22:11:50... | 2017-12-03 22:11:50 UTC |
+| 19 | Milwaukee Bucks        | Bango                  | BMO Harris Bradley ... | 2017-12-03 22:11:50... | 2017-12-03 22:11:50 UTC |
+| 20 | Minnesota Timberwolves | Crunch the Wolf        | Target Center          | 2017-12-03 22:11:51... | 2017-12-03 22:11:51 UTC |
+| 21 | New Orleans Pelicans   | Pierre the Pelican     | Smoothie King Center   | 2017-12-03 22:11:51... | 2017-12-03 22:11:51 UTC |
+| 22 | New York Knicks        | Spike Lee              | Madison Square Garden  | 2017-12-03 22:11:51... | 2017-12-03 22:11:51 UTC |
+| 23 | Oklahoma City Thunder  | Rumble the Bison       | Chesapeake Energy A... | 2017-12-03 22:11:51... | 2017-12-03 22:11:51 UTC |
+| 24 | Orlando Magic          | Stuff the Magic Dragon | Amway Center           | 2017-12-03 22:11:52... | 2017-12-03 22:11:52 UTC |
+| 25 | Philadelphia 76ers     | Franklin the Dog       | Wells Fargo Center ... | 2017-12-03 22:11:52... | 2017-12-03 22:11:52 UTC |
+| 26 | Phoenix Suns           | The Suns Gorilla       | Talking Stick Resor... | 2017-12-03 22:11:52... | 2017-12-03 22:11:52 UTC |
+| 27 | Portland Trail Blazers | Blaze the Trail Cat    | Moda Center            | 2017-12-03 22:11:53... | 2017-12-03 22:11:53 UTC |
+| 28 | Sacramento Kings       | Slamson the Lion       | Golden 1 Center        | 2017-12-03 22:11:53... | 2017-12-03 22:11:53 UTC |
+| 29 | San Antonio Spurs      | The Coyote             | AT&T Center            | 2017-12-03 22:11:53... | 2017-12-03 22:11:53 UTC |
+| 30 | Toronto Raptors        | Raptor                 | Air Canada Centre      | 2017-12-03 22:11:53... | 2017-12-03 22:11:53 UTC |
+| 31 | Utah Jazz              | Jazz Bear              | Vivint Smart Home A... | 2017-12-03 22:11:54... | 2017-12-03 22:11:54 UTC |
+| 32 | Washington Wizards     | G. Wiz                 | Verizon Center         | 2017-12-03 22:11:54... | 2017-12-03 22:11:54 UTC |
++----+------------------------+------------------------+------------------------+------------------------+-------------------------+
+32 rows in set
