@@ -1,0 +1,34 @@
+<div id="wrapper">​
+    <p>Your Gold: <strong><%= @gold %></strong></p>​
+    <div id="places">​
+        <form action="/bitmine" method="post">​
+            <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">​
+            <input type="hidden" name="building" value="farm">​
+                <p><strong>Farm</strong></p>
+                <p>(earns 100-200 golds)</p>​
+                <p><input type="submit" value="Mine Gold!" /></p>​
+        </form>​
+        <form action="/bitmine" method="post">​
+            <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">​
+            <input type="hidden" name="building" value="cave">​
+                <p><strong>Cave</strong></p>​
+                <p>(earns 50-100 golds)</p>​
+                <p><input type="submit" value="Mine Gold!" /></p>​
+        </form>​
+        <form action="/bitmine" method="post">​
+            <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">​
+            <input type="hidden" name="building" value="house">​
+                <p><strong>House</strong></p>​
+                <p>(earns 20-50 golds)</p>​
+                <p><input type="submit" value="Mine Gold!" /></p>​
+        </form>​
+        <form action="/bitmine" method="post">​
+            <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">​
+            <input type="hidden" name="building" value="casino">​
+                <p><strong>Casino</strong></p>​
+                <p>(earns/looses -100-200 golds)</p>​
+                <p><input type="submit" value="Mine Gold!" /></p>​
+        </form>​
+    </div>​
+        
+​</div>​

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get '/', to: 'rpg#index'
+  get "rpg" => "rpg#rpg"
+  post "bitmine" => "rpg#bitmine"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
