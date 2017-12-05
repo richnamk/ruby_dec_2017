@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  root "dojos#index"
-  resources :dojos, only: [:index]
+  get 'dojos' => 'dojos#index'
+  get 'dojos/new' => 'dojos#new'
+  post 'dojos/create' => 'dojos#create'
+  get 'dojos(/:id)' => 'dojos#show'
+  get 'dojos(/:id)/edit' => 'dojos#edit'
+  post 'dojos/edit' => 'dojos#update'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

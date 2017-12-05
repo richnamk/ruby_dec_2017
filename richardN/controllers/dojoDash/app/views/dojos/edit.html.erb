@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>edit</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <h2>Edits</h2>
+    <form action='/index/edit/' method='post'>
+        <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+        <label>Branch:</label>
+        <input type='text' name='dojo[branch]' value='<%= @dojo.branch %>'/>
+        <br>
+        <br>
+        <label>Street:</label>
+        <input type='text' name='dojo[street]' value='<%= @dojo.street %>'/>
+        <br>
+        <br>
+        <label>City:</label>
+        <input type='text' name='dojo[city]' value='<%= @dojo.city %>'/>
+        <br>
+        <br>
+        <label>State:</label>
+        <input type='text' name='dojo[state]' value='<%= @dojo.state %>'/>
+        <br>
+        <br>
+        <input type='submit' value='Update'/>
+    </form>
+    <br>
+    <a href="/index">Home</a> | <a href="/index/<%= @dojo.id %>">Show</a>
+</body>
+</html>
