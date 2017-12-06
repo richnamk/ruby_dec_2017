@@ -7,6 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <br>
+    <% if flash[:success] %>
+        <p><%= flash[:success] %></p>
+    <% end %>
+    <% if @dojos %>
+        <h3>Listing <%= @dojos.count %> Dojos</h3>
+    <% end %>
+    <br>
     <table>
         <thead>
             <th>Coding Dojo Branch</th>
@@ -21,6 +29,7 @@
                 <td><%= dojo.street %></td>
                 <td><%= dojo.city %></td>
                 <td><%= dojo.state %></td>
+                <td><a href="/dojos/<%= dojo.id %>">Show</a> | <a href="/dojos/<%= dojo.id %>/edit">Edit</a> | <a href="/dojos/<%= dojo.id %>/destroy" data-method='delete'>Destroy</a></td>
             </tr>
             <% end %>
         </tbody>

@@ -7,8 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <h2>Edits</h2>
-    <form action='/index/edit/' method='post'>
+    <h2>Edit</h2>
+    <form action='/dojos/edit/' method='post'>
         <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
         <label>Branch:</label>
         <input type='text' name='dojo[branch]' value='<%= @dojo.branch %>'/>
@@ -29,6 +29,6 @@
         <input type='submit' value='Update'/>
     </form>
     <br>
-    <a href="/index">Home</a> | <a href="/index/<%= @dojo.id %>">Show</a>
+    <a href="/dojos">Home</a> | <a href="/dojos/<%= @dojo.id %>">Show</a>
 </body>
 </html>

@@ -22,9 +22,12 @@ class DojosController < ApplicationController
     end
     def update
         updates = Dojo.find(session[:id]).update(dojo_params)
-        redirect_to '/index'
+        redirect_to '/dojos'
     end
-
+    def destroy
+        delete = Dojo.find(params[:id]).destroy
+        redirect_to '/dojos'
+    end
     private 
     def dojo_params
         params.require(:dojo).permit(:branch, :street, :city, :state)
