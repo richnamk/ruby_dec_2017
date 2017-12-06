@@ -45,3 +45,11 @@ group :development do
   gem 'spring'
 end
 
+gem 'hirb'
+gem 'rails-footnotes', '>= 4.0.0', '<5'
+gem 'simple_form' 
+  #makes the creation of forms simpler. It also taps into the next gem for styling
+gem 'bootstrap', '~> 4.0.0.beta2'
+  #CSS library you learned way back at the end of the CSS section
+gem 'carrierwave'
+  #makes it very easy to upload files, images, pdf documents and anything you can think of
