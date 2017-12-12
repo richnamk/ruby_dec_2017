@@ -46,6 +46,3 @@ class BankAccount
       @account_number = Array.new(10).map { rand(1..9) }.join
     end
 end
-
-bank = BankAccount.new.deposit("saving", 250).withdrawal("saving", 10).deposit("checking", 1)
-puts bank.account_information

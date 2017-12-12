@@ -27,10 +27,10 @@ RSpec.describe BankAccount do
   end
   context 'withdrawing money' do
     it 'user cannot withdraw what their balance does not contain' do
-      expect{ @account1.withdrawal('checking', 100) }.to raise_error('Insufficient Funds, you have 0 in this account')
+      expect{ @account1.withdrawal('checking', 100) }.to raise_error('Youre broke, you have 0 in this account')
     end
     it 'user cannot withdraw what their balance does not contain' do
-      expect{ @account1.withdrawal('savings', 100) }.to raise_error('Insufficient Funds, you have 0 in this account')
+      expect{ @account1.withdrawal('savings', 100) }.to raise_error('Youre broke, you have 0 in this account')
     end
   end
 end
